@@ -1,0 +1,25 @@
+/* 这里可以添加商品推荐页面的样式 */
+body {
+    font-family: Arial, sans-serif;
+}
+
+#product-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+body {
+    background-image: url('image5.png');
+    background-size: cover;
+    animation: moveBackground 20s linear infinite;
+}
+
+@keyframes moveBackground {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: 100% 100%;
+    }
+}
